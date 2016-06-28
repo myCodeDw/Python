@@ -1,7 +1,6 @@
 """ 定义一个模块nester.py
 其中包含一个print_lol()函数
 递归打印列表,其中有可能包含(也可能不包含)嵌套列表"""
-import sys
 
 def print_lol(the_list, indent=False, level=0, fh=sys.stdout):
     """这个函数取一个位置参数,名为the_list,这可以是人任何Python列表(也可以是包含嵌套列表的列表
